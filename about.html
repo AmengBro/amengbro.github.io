@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于 · Ameng</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+        :root {
+            --bg: #0d1117; --bg-sub: #161b22; --bg-hover: #1c2128;
+            --border: #30363d; --border-light: #21262d;
+            --text: #e6edf3; --text-sub: #8b949e; --text-muted: #6e7681;
+            --accent: #58a6ff; --radius: 6px;
+            --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', sans-serif;
+            --font-mono: 'SF Mono', 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+            --transition: all 0.15s ease;
+        }
+        body { font-family:var(--font); background:var(--bg); color:var(--text); line-height:1.6; -webkit-font-smoothing:antialiased; }
+        .topbar { height:48px; border-bottom:1px solid var(--border); display:flex; align-items:center; padding:0 16px; gap:12px; background:var(--bg-sub); }
+        .topbar-logo { display:flex; align-items:center; gap:6px; font-weight:600; font-size:0.85rem; color:var(--text); text-decoration:none; }
+        .topbar-logo img { width:20px; height:20px; border-radius:50%; object-fit:cover; }
+        .topbar-nav { display:flex; gap:2px; margin-left:8px; }
+        .topbar-link { padding:4px 10px; border-radius:var(--radius); font-size:0.8rem; font-weight:500; color:var(--text-sub); text-decoration:none; }
+        .topbar-link:hover { color:var(--text); background:var(--bg-hover); }
+        .topbar-link.active { color:var(--text); background:var(--bg-active); }
+
+        .container { max-width:720px; margin:0 auto; padding:0 24px; }
+
+        .hero { padding:48px 0 24px; text-align:center; }
+        .hero .avatar { width:64px; height:64px; border-radius:50%; object-fit:cover; border:2px solid var(--border); margin-bottom:12px; }
+        .hero h1 { font-size:1.4rem; font-weight:700; }
+        .hero .handle { font-family:var(--font-mono); font-size:0.8rem; color:var(--text-muted); }
+
+        .panel { background:var(--bg-sub); border:1px solid var(--border); border-radius:var(--radius); margin-bottom:12px; overflow:hidden; }
+        .panel-header { padding:8px 12px; border-bottom:1px solid var(--border-light); font-size:0.78rem; font-weight:600; color:var(--text-sub); display:flex; align-items:center; gap:6px; background:var(--bg); }
+        .panel-header i { font-size:0.85rem; }
+        .panel-body { padding:12px; font-size:0.85rem; color:var(--text-sub); }
+        .panel-body p { margin-bottom:6px; }
+        .panel-body p:last-child { margin-bottom:0; }
+
+        .stats { display:flex; gap:12px; flex-wrap:wrap; }
+        .stat-box { flex:1; min-width:100px; padding:12px; text-align:center; border:1px solid var(--border); border-radius:var(--radius); }
+        .stat-box .num { font-size:1.5rem; font-weight:700; color:var(--accent); font-family:var(--font-mono); }
+        .stat-box .label { font-size:0.72rem; color:var(--text-muted); margin-top:2px; }
+
+        .timeline { list-style:none; }
+        .timeline li { position:relative; padding:6px 0 6px 16px; border-left:1px solid var(--border); font-size:0.82rem; }
+        .timeline li::before { content:''; position:absolute; left:-3px; top:12px; width:5px; height:5px; border-radius:50%; background:var(--accent); }
+        .timeline li .date { font-size:0.7rem; color:var(--text-muted); display:block; }
+
+        .link-row { display:flex; flex-wrap:wrap; gap:6px; }
+        .link-row a { padding:4px 10px; border:1px solid var(--border); border-radius:var(--radius); color:var(--text-sub); text-decoration:none; font-size:0.78rem; display:flex; align-items:center; gap:4px; }
+        .link-row a:hover { border-color:var(--text-muted); color:var(--text); background:var(--bg-hover); }
+        .link-row a i { font-size:0.85rem; }
+
+        .footer { border-top:1px solid var(--border); padding:24px; text-align:center; color:var(--text-muted); font-size:0.72rem; margin-top:32px; }
+        .footer a { color:var(--text-muted); text-decoration:none; }
+        .footer a:hover { color:var(--text-sub); }
+
+        @media (max-width:600px) {
+            .hero { padding:32px 0 16px; }
+            .stats { flex-direction:column; }
+            .stat-box { min-width:auto; }
+        }
+    </style>
+</head>
+<body>
+    <header class="topbar">
+        <a href="index.html" class="topbar-logo">
+            <img src="AMlogo2.png" alt="A"> Ameng
+        </a>
+        <nav class="topbar-nav">
+            <a href="index.html" class="topbar-link">首页</a>
+            <a href="resources.html" class="topbar-link">资源</a>
+            <a href="about.html" class="topbar-link active">关于</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <img src="AMlogo2.png" alt="Ameng" class="avatar">
+            <h1>AmengBro</h1>
+            <div class="handle">@ameng · 学生开发者</div>
+        </section>
+
+        <div class="panel">
+            <div class="panel-header"><i class="ri-book-open-line"></i> 关于本站</div>
+            <div class="panel-body">
+                <p>这里是 AmengBro 的个人资源站。</p>
+                <p>分享我自己写的和从网上收集的各种资源——从 VB、C++ 到 Python，从游戏、工具到整蛊小软件。</p>
+                <p>所有资源免费下载。如果有问题或者建议，欢迎反馈。</p>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-header"><i class="ri-bar-chart-box-line"></i> 数据</div>
+            <div class="panel-body">
+                <div class="stats">
+                    <div class="stat-box"><div class="num">19</div><div class="label"><i class="ri-inbox-line"></i> 资源</div></div>
+                    <div class="stat-box"><div class="num">5</div><div class="label"><i class="ri-price-tag-3-line"></i> 分类</div></div>
+                    <div class="stat-box"><div class="num">2025</div><div class="label"><i class="ri-calendar-line"></i> 建站</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-header"><i class="ri-time-line"></i> 更新日志</div>
+            <div class="panel-body">
+                <ul class="timeline">
+                    <li><span class="date">2025/09/30</span>新增蹦蹦炸弹3.0、极域杀手大杂烩</li>
+                    <li><span class="date">2025/08/29</span>新增蹦蹦炸弹2.0（Python图形界面版）</li>
+                    <li><span class="date">2025/08/15</span>新增NDM下载器、小人跑酷、iwb驱动</li>
+                    <li><span class="date">2025/08/14</span>新增Office精简版、Flash支持版、压缩三巨头等</li>
+                    <li><span class="date">2025/08/11</span>站点上线</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-header"><i class="ri-link"></i> 链接</div>
+            <div class="panel-body">
+                <div class="link-row">
+                    <a href="resources.html"><i class="ri-inbox-line"></i> 全部资源</a>
+                    <a href="index.html"><i class="ri-home-line"></i> 首页</a>
+                    <a href="https://workdrive.zoho.com.cn/" target="_blank" rel="noopener"><i class="ri-cloud-line"></i> 云盘</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-header"><i class="ri-settings-3-line"></i> 技术栈</div>
+            <div class="panel-body">
+                <p>纯手写 HTML + CSS + JavaScript · 零框架 · 零依赖</p>
+                <p style="font-size:0.78rem; color:var(--text-muted);">托管于 Vercel · 灵感来自 GitHub 及个人独立站</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        Ameng 资源站 · Made with <i class="ri-heart-line" style="color:#f85149;"></i> by AmengBro
+    </footer>
+</body>
+</html>

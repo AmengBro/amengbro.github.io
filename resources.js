@@ -1,0 +1,21 @@
+window.resources = [
+  {id:1,  n:'蹦蹦炸弹',        d:'盘符爆满器，使用VB制作',                              i:'💣', s:'自制',     date:'2025/8/11',  tags:['整蛊','VB'],             url:'https://workdrive.zohopublic.com.cn/external/7a2544cbe734dabffc52b11054a4cee1d4c0f0f0a27feab500a809acf6be67ce'},
+  {id:2,  n:'小土堆',          d:'轻松学会Python（视频）',                            i:'🐍', s:'网络整理',  date:'2025/8/23',  tags:['Python','教程'],         url:'https://workdrive.zohopublic.com.cn/external/7a2544cbe734dabffc52b11054a4cee1d4c0f0f0a27feab500a809acf6be67ce'},
+  {id:3,  n:'米忽悠音乐',       d:'scratch开发的音乐播放器（密码：AmengBro）',        i:'🎵', s:'自制打包',  date:'2025/8/11',  tags:['音乐','Scratch打包'],     url:'https://workdrive.zohopublic.com.cn/external/7a2544cbe734dabffc52b11054a4cee1d4c0f0f0a27feab500a809acf6be67ce'},
+  {id:4,  n:'蹦蹦炸弹',        d:'盘符爆满器，使用C++制作（非图形界面）',           i:'💣', s:'自制',     date:'2025/7/5',   tags:['整蛊','伪装'],           url:'https://workdrive.zoho.com.cn/file/w86hs8fd2bb6924c84e4283a81af000077a0e'},
+  {id:5,  n:'FlatMC 0.2.0',   d:'我的世界2D版·安装包版',                          i:'🎮', s:'网络打包',  date:'2023/10/20', tags:['游戏','二创'],           url:'https://workdrive.zoho.com.cn/file/w86hs0c4760053cf248469e137323b3d6546d'},
+  {id:6,  n:'翁法罗斯（en-us）',d:'模拟崩坏星穹铁道的翁法罗斯，英文版',             i:'🖥️', s:'网络',     date:'2023/08/30', tags:['二创','模拟'],           url:'https://workdrive.zoho.com.cn/file/w86hs6881c48480b746bca3effee86d09b656'},
+  {id:7,  n:'魔丸',            d:'哪吒二压缩到极致',                               i:'📺', s:'网络',     date:'2025/08/13', tags:['电影','压片战争'],       url:'https://www.ilanzou.com/s/7jhzNaav'},
+  {id:8,  n:'PVZ打包',         d:'4款PVZ一起打包（分卷压缩，下载所有文件）',         i:'🎮', s:'网络打包',  date:'2025/08/12', tags:['游戏','打包'],           url:'https://workdrive.zoho.com.cn/folder/w86hs4e1508c26ed54248ab7735635795c13b'},
+  {id:9,  n:'胡桃工具箱',       d:'非常NB的工具',                                  i:'🛠️', s:'网络',     date:'2025/08/14', tags:['原神','工具'],           url:'https://www.ilanzou.com/s/TZ3znHue'},
+  {id:10, n:'BetterGI',        d:'配合胡桃工具箱使用，需手动选择更新包体',           i:'🛠️', s:'网络',     date:'2025/08/14', tags:['原神','工具'],           url:'https://workdrive.zoho.com.cn/file/w86hsae43a66ba5e54df2be8bda1e5150b141'},
+  {id:11, n:'Office 2024 精简',d:'Word / PPT / Excel / Access，分卷压缩',           i:'📄', s:'网络',     date:'2025/08/14', tags:['办公','工具'],           url:'https://www.ilanzou.com/s/zVZznHQw'},
+  {id:12, n:'Flash 最终支持版', d:'支持浏览器IE模式或IE浏览器',                      i:'🛠️', s:'网络',     date:'2025/08/14', tags:['Flash','工具'],         url:'https://www.ilanzou.com/s/0qwzMXvI'},
+  {id:13, n:'压缩三大巨头',     d:'7-zip / WinRAR / Bandizip 专业破解',             i:'📁', s:'网络',     date:'2025/08/14', tags:['压缩','工具'],           url:'https://www.ilanzou.com/s/p8yzMXsA'},
+  {id:14, n:'iwb 驱动',        d:'让你的希沃白板晋升成学校同款',                     i:'🧩', s:'网络',     date:'2025/08/15', tags:['插件','工具'],           url:'https://www.ilanzou.com/s/UQHzIKey'},
+  {id:15, n:'小人跑酷',        d:'轻便好玩',                                       i:'🕹️', s:'网络',     date:'2025/08/15', tags:['Flash','游戏'],         url:'https://www.ilanzou.com/s/UQHzIKey'},
+  {id:16, n:'NDM 下载器',      d:'IDM平替，简洁高效',                              i:'⬇️', s:'网络',     date:'2025/08/15', tags:['下载器','工具'],         url:'https://www.ilanzou.com/s/ruIzkMXX'},
+  {id:17, n:'蹦蹦炸弹 2.0',    d:'盘符爆满器，使用Python制作（图形界面）',           i:'💣', s:'自制',     date:'2025/8/29',  tags:['整蛊','伪装'],           url:'https://www.ilanzou.com/s/8fJzVnbv'},
+  {id:18, n:'蹦蹦炸弹 3.0',    d:'盘符爆满器，自动兼容性判断',                      i:'💣', s:'自制',     date:'2025/9/30',  tags:['整蛊','伪装'],           url:'https://www.ilanzou.com/s/zx6NLJOY'},
+  {id:19, n:'极域杀手大杂烩',  d:'非常好用',                                       i:'🗡', s:'网络',     date:'2025/9/30',  tags:['工具','伪装'],           url:'https://www.ilanzou.com/s/t53NlnZj'}
+];
